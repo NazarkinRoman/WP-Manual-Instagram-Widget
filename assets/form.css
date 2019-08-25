@@ -1,0 +1,92 @@
+/*************************************************************************/
+/* Widget Back-end Form Styles */
+/*************************************************************************/
+
+.nazarkinre-wpiw-form-wrapper .form-group {
+    margin:      1em 0;
+    line-height: 1.5;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field {
+    display: flex;
+    width:   100%;
+    margin:  0.5rem 0;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field + .image-repeatable-field {
+    margin-top: 1rem;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field__image {
+    position:      relative;
+    flex:          0 0 4.5rem;
+    border:        .175rem dashed #d9d9d9;
+    border-radius: .25rem;
+    cursor:        pointer;
+    box-sizing:    border-box;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field__image:hover {
+    border-color: #c3c3c3;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field__image-placeholder {
+    position:  absolute;
+    top:       50%;
+    left:      50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index:   1;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field__image img {
+    position:      absolute;
+    top:           -.175rem;
+    left:          -.175rem;
+    width:         calc(100% + .35rem);
+    height:        calc(100% + .35rem);
+    object-fit:    cover;
+    z-index:       2;
+    border-radius: .25rem;
+}
+
+#customize-controls .nazarkinre-wpiw-form-wrapper .image-repeatable-field__image img {
+    max-width: none;
+}
+
+.image-repeatable-field__aside {
+    flex:   1;
+    margin: 0 .75rem;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-field__aside input + input {
+    margin-top: 0.5rem;
+}
+
+.image-repeatable-field__controls {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: space-between;
+}
+
+.image-repeatable-field__controls a {
+    text-decoration: none;
+    display:         inline-block;
+    /*padding:         .25rem;*/
+    color:           #5f5f5f;
+    line-height:     25px;
+    box-shadow:      none;
+    outline:         none;
+}
+
+.image-repeatable-field__controls a .dashicons {
+    vertical-align: middle;
+}
+
+.image-repeatable-field__drag-handle {
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+
+.nazarkinre-wpiw-form-wrapper .image-repeatable-fields-list__template {
+    display: none;
+}
