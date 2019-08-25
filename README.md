@@ -1,6 +1,6 @@
 # WP Manual Instagram Widget
 
-This plugin is built as a replacement for [WP Instagram Widget](https://github.com/scottsweb/wp-instagram-widget/blob/master/readme.md) plugin by @scottsweb.
+This plugin is built as a replacement for [WP Instagram Widget](https://github.com/scottsweb/wp-instagram-widget/blob/master/readme.md) plugin by [@scottsweb](http://twitter.com/scottsweb).
 Scott did a great work on this, but latest Instagram markup changes frequently break functionality of his solution and also Instagram plans to close their public API in early 2020
 so after that we won't have any possible way to scrape data from there.
 
